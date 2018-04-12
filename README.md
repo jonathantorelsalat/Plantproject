@@ -22,3 +22,4 @@ Pour le moment le projet est organisé en 5 branches:
     resSig= resultat significatifs (pvalue <0.01)
     alun = alignement unique
     almult = alignement multiple (= unique + multiple)
+    DPI = DaysPostInfection
