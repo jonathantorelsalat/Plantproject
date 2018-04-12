@@ -12,12 +12,21 @@ Pour le moment le projet est organisé en 5 branches:
  résultats cohérents avec les articles à l'exception de glycine max
  
 GM= glycine max
+
 CA= cicer arietinum
+
 MT= medicago truncatula
+
 MS = medicago sativa
+
 PS = Pisum sativum
+
 PV = phaesolus vulgaris 
+
 resSig= resultat significatifs (pvalue <0.01)
+
 alun = alignement unique
+
 almult = alignement multiple (= unique + multiple)
+
 DPI = DaysPostInfection
