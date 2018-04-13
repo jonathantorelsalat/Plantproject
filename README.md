@@ -13,5 +13,7 @@
     alun = alignement unique
     almult = alignement multiple (= unique + multiple)
     DPI = DaysPostInfection
+    
+    Global_deseq2_results: résume les résultats des différentes plantes
 
 
