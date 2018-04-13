@@ -82,7 +82,7 @@ resSig_CA_28DPI_alun=subset(res_CA_28DPI_alun,pvalue<0.01)
 resSig_CA_28DPI_almult=subset(res_CA_28DPI_almult,pvalue<00.1)
 
 write.csv(resSig_CA_28DPI_alun,file="resSig_CA_28DPI_alun.csv")
-write.csv(resSig_CA_28DPI_alun,file="resSig_CA_28DPI_almult.csv")
+write.csv(resSig_CA_28DPI_almult,file="resSig_CA_28DPI_almult.csv")
 ##MEDICAGO SATIVA ################################################################################################################################################
 
 
