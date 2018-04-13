@@ -14,4 +14,4 @@
     almult = alignement multiple (= unique + multiple)
     DPI = DaysPostInfection
 
-Problème de changements de valeurs lors de l'exportation des résultats depuis R, en cours de correction
+
