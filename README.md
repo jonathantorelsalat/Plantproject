@@ -2,6 +2,8 @@ Pour le moment le projet est organisé en 5 branches:
 
 -Master qui contient des informations générales telles que le summary des comptages et le tableau général des données.
 
+-article_data qui contient le résumé du traitement de données dans les articles
+
 -comptage qui contient tout les données de comptages brutes des reads pour les 6 espèces actuellement étudiées
 
 -mapping_results qui contient tout les résultats mapping (%alignement etc...)
