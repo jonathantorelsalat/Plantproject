@@ -13,7 +13,7 @@ Pour le moment le projet est organisé en 5 branches:
 -papers qui contient les articles
 
 -deseq2 contenant le script R de l'analyse ainsi que les résultats significatifs obtenus
- résultats cohérents avec les articles à l'exception de glycine max
+
  
 GM= glycine max
 
