@@ -32,3 +32,4 @@ alun = alignement unique
 almult = alignement multiple (= unique + multiple)
 
 DPI = DaysPostInfection
+test
