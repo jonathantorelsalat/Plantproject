@@ -58,8 +58,8 @@ for i in l_fichiers:
 			
 			
 			if el[0]==">":
-				el=el.replace(">","")
-				dico_contig[plante].append(el)
+				el1=el[1:]
+				dico_contig[plante].append(el1)
 			
 print("ouverture du fichier de résultat: summary_res_blast.txt")
 
@@ -95,14 +95,25 @@ for plante in dico_contig:
 			sys.exit(0) ### Stoppe simplement l'exécution du programme.
 
 		print("Chargement fichier terminé, début de la comparaison")
+		liste_contig_manquant=[]
+		cpt_el=0
 		for el in dico_contig[plante]:
+			cpt_el=cpt_el+1
+			
+			if (cpt_el==1):
+				print("Dans un soucis de vérification on print l'élément en cours tout les 10 000 contigs comparés")
+				print(el)
+			
+			if ((cpt_el/10000)==int):
+				print("Dans un soucis de vérification on print l'élément en cours tout les 10 000 contigs comparés")
+				print(el)
 			if ("# Query: "+el) not in f_lignes:
 				print("lui pas en commun")
 				print(el)
 				liste_contig_manquant.append(el)
-	
+		
 		print("Fin de comparaison entre "+plante+" et "+f_blast+" début écriture résultat")
-		summary.write("Vérification de "+plante+" dans le fichier "+f_blast+" listes des peptides manquant: "+"\n"+liste_contig_manquant+"\n")
+		summary.write("Vérification de "+plante+" dans le fichier "+f_blast+" listes des peptides manquant: "+"\n"+str(liste_contig_manquant)+"\n")
 
 
 		
